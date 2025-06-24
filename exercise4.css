@@ -1,0 +1,30 @@
+.menu {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 10px;
+  z-index: 2;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: yellow;
+}
+
+.article {
+  padding: 50px;
+  margin: 50px 0;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  margin-top: 0;
+}

@@ -1,0 +1,25 @@
+
+:root {
+  --main-text-color: white;
+  --main-bg-color: #4b0082;
+}
+.galaxy {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  padding: 20px;
+  margin: 10px;
+}
+
+.solar-system {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  padding: 20px;
+  margin: 10px;
+}
+
+.planets {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  padding: 20px;
+  margin: 10px;
+}

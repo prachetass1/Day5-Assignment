@@ -1,0 +1,32 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 200ms ease-in, opacity 200ms ease-in;
+}
+
+.box:hover {
+  background-color: #ffe5e5;
+  opacity: 0.8;
+}
+
+.box img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}

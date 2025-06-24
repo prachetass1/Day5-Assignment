@@ -1,0 +1,25 @@
+.container {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+}
+
+h3.new::after {
+  content: " New";
+  background-color: green;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+h3.trending::after {
+  content: " Trending";
+  background-color: orange;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
